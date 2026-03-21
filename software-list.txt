@@ -17,3 +17,11 @@ sddm
 gnome-keyring
 dunst
 rofi-wayland
+
+
+--------
+unzip
+nvim
+clang
+base-devel
+wl-clipboard
