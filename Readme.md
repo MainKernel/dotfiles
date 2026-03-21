@@ -1,3 +1,4 @@
 # Hyprland config
 
+Hyprland setup
 

@@ -1,0 +1,43 @@
+window {
+	background: transparent;
+}
+box.main {
+	background-color: rgba(30, 30, 46, 0.95);
+	border: 2px solid #89b4fa;
+	border-radius: 16px;
+	padding: 12px;
+}
+
+*{
+	font-family: "JetBrainsMono Nerd Font", sans-serif;
+	font-size: 16px;
+	color: #cdd6f4;
+	box-shadow: none;
+
+}
+
+
+
+#entry {
+	background-color: #313244;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#match {
+	padding: 8px 12px;
+	border-radius: 8px;
+	margin-top: 5px;
+}
+
+#match:selected {
+	background-color: #89b4fa;
+	color: #1e1e2e;
+}
+
+
+list.plugin{
+	background-color: rgba(30, 30, 46, 0.95);
+}
+

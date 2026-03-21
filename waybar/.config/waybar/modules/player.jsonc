@@ -1,0 +1,12 @@
+{
+	"custom/player": {
+		"exec": "~/.config/hyperscripts/waybar/modules/player.sh",
+		"return-type": "json",
+		"format": "󰋋 {:.20}",
+		"escape": true,
+		"max-lenght" : 20,
+		"on-click": "~/.config/hyperscripts/waybar/modules/rofi-player.sh",
+		"on-scroll-down": "playerctl next",
+		"on-scroll-up": "playerctl previous"
+	}
+}

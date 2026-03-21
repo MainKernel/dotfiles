@@ -3,6 +3,7 @@ vulkan-intel
 intel-media-driver
 xorg-xwayland
 hyprland
+hyprpaper
 qt5-wayland
 qt6-wayland
 hyprpolkitagent
@@ -17,7 +18,7 @@ sddm
 gnome-keyring
 dunst
 rofi-wayland
-
+playerctl
 
 --------
 unzip
@@ -25,3 +26,7 @@ nvim
 clang
 base-devel
 wl-clipboard
+
+---AUR----
+yay
+anyrun-git
