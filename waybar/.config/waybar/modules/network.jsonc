@@ -1,1 +1,12 @@
-{}
+{
+	"network": {
+		"interval": 5,
+		"format-wifi": " {essid}",
+		"format-ethernet": "󰈀 {ipaddr}",
+		"format-linked": " {ifname} (No IP)",
+		"format-disconnected": "󰌙 Disconnected",
+		"tooltip-format": "{ifname} via {gwaddr}󰯦",
+		"tooltip-format-wifi": "Signal: {signalStrenght}% | Speed: {bandwidthDownBits}",
+		"on-click": "kitty -e nmtui"
+	}
+}

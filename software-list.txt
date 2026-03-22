@@ -20,7 +20,8 @@ gnome-keyring
 dunst
 rofi-wayland
 playerctl
-
+bluez
+blueman-manager
 --------
 unzip
 nvim

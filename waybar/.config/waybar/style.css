@@ -1,6 +1,8 @@
 @import "modules/styles/player.css";
 @import "modules/styles/clock.css";
 @import "modules/styles/mem-usage.css";
+@import "modules/styles/battery.css";
+@import "modules/styles/cpusage.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
@@ -26,7 +28,19 @@ window#waybar.solo {
     background-color: #FFFFFF;
 }
 */
+#bluetooth{
+	font-family: "JetBrainsMono Nerd Font", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #de0b2e;
 
+	margin: 4px 4px;
+	padding: 0px 12px;
+
+	background-color: #101018;
+	border-radius: 1rem;
+
+}
 window#waybar.termite {
     background-color: #3F3F3F;
 }
@@ -194,7 +208,16 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+	font-family: "JetBrainsMono Nerd Font", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #de0b2e;
+
+	margin: 4px 4px;
+	padding: 0px 12px;
+
+	background-color: #101018;
+	border-radius: 1rem;
 }
 
 #network.disconnected {

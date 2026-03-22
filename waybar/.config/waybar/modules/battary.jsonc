@@ -1,0 +1,10 @@
+{
+	"custom/battery": {
+		"exec": "~/.config/hyperscripts/waybar/modules/battary.sh",
+		"return-type": "json",
+		"interval": 30,
+		"text": "{}",
+		"tooltip": false,
+		"on-click": "~/.config/hyperscripts/waybar/modules/powermenu.sh"
+	}
+}
