@@ -28,4 +28,7 @@ stow rofi
 stow waybar
 stow hyprland
 
+sudo systemctl enable sddm
+sudo systemctl enable bluetooth
+
 echo "✓ System ready."
