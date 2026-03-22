@@ -1,4 +1,6 @@
 @import "modules/styles/player.css";
+@import "modules/styles/clock.css";
+@import "modules/styles/mem-usage.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
@@ -7,9 +9,7 @@
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
-    color: #ffffff;
+    background-color: transparent; 
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -18,10 +18,10 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
 window#waybar.empty {
     background-color: transparent;
 }
+/*
 window#waybar.solo {
     background-color: #FFFFFF;
 }
@@ -57,12 +57,13 @@ button:hover {
 
 #workspaces button {
     padding: 0 5px;
-    background-color: transparent;
+    background-color: #101018;
     color: #ffffff;
 }
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
 }
 
 #workspaces button.focused, #workspaces button.active {
@@ -102,12 +103,17 @@ button:hover {
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    margin: 0px 4px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
+}
+.modules-left {
+	background-color: #101018;
+	border-radius: 1rem;
+	padding-left: 10px;
 }
 
 /* If workspaces is the rightmost module, omit right margin */

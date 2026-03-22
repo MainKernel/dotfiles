@@ -8,7 +8,7 @@
     // Choose the order of the modules-left
     "include": [
 	    "~/.config/waybar/modules/clock.jsonc",
-	    "~/.config/waybar/modules/hardware.jsonc",
+	    "~/.config/waybar/modules/memusage.jsonc",
 	    "~/.config/waybar/modules/mod-button.jsonc",
 	    "~/.config/waybar/modules/network.jsonc",
 	    "~/.config/waybar/modules/player.jsonc",
@@ -24,22 +24,9 @@
         "custom/player"
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
-        "pulseaudio",
-        "network",
-        "power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
-        "backlight",
-        "keyboard-state",
-        "hyrland/language",
-        "battery",
-        "battery#bat2",
-        "clock",
-        "tray",
-        "custom/power"
+	    "custom/memusage",
+	    "custom/clock"
+
     ],
     // Modules configuration
     // "hyrland/workspaces": {
@@ -202,7 +189,7 @@
     },
     "custom/media": {
         "format": "{icon} {text}",
-        "return-type": "json",
+        "ret:urn-type": "json",
         "max-length": 40,
         "format-icons": {
             "spotify": "",

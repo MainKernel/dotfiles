@@ -1,0 +1,8 @@
+{
+	"custom/memusage": {
+		"exec": "~/.config/hyperscripts/waybar/modules/mem-info.sh",
+		"interval": 5,
+		"return-type": "json",
+		"format": "RAM {}"
+	}
+}

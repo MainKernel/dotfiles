@@ -2,7 +2,7 @@
 
 status=$(playerctl status 2>/dev/null || echo "Stopped")
 title=$(playerctl metadata --format '{{title}}' 2>/dev/null || echo "...")
-if [[$status == "Playing"]]; then
+if [[ $status == "Playing" ]]; then
 	play_pause="󰏤"
 else 
 	play_pause="󰐊"
