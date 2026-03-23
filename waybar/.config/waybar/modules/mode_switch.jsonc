@@ -1,0 +1,8 @@
+{
+	"custom/mode_switch": {
+		"format": "  MODE",
+		"tooltip": false,
+		"on-click": "~/.config/hyperscripts/waybar/modules/mode-switcher.sh"
+
+	}
+}

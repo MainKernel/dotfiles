@@ -3,6 +3,7 @@
 @import "modules/styles/mem-usage.css";
 @import "modules/styles/battery.css";
 @import "modules/styles/cpusage.css";
+@import "modules/styles/mode_switch.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */

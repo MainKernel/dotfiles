@@ -30,5 +30,6 @@ stow hyprland
 
 sudo systemctl enable sddm
 sudo systemctl enable bluetooth
+sudo systemctl enable pipewire pipewire-pulse wireplumber
 
 echo "✓ System ready."

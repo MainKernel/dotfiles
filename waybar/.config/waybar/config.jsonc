@@ -9,14 +9,14 @@
     "include": [
 	    "~/.config/waybar/modules/clock.jsonc",
 	    "~/.config/waybar/modules/memusage.jsonc",
-	    "~/.config/waybar/modules/mod-button.jsonc",
 	    "~/.config/waybar/modules/network.jsonc",
 	    "~/.config/waybar/modules/player.jsonc",
 	    "~/.config/waybar/modules/workspaces.jsonc",
 	    "~/.config/waybar/modules/battary.jsonc",
 	    "~/.config/waybar/modules/cpusage.jsonc",
 	    "~/.config/waybar/modules/network.jsonc",
-	    "~/.config/waybar/modules/bluetooth.jsonc"
+	    "~/.config/waybar/modules/bluetooth.jsonc",
+	    "~/.config/waybar/modules/mode_switch.jsonc"
     ],
 
 
@@ -25,7 +25,8 @@
     ],
 
     "modules-center": [
-        "custom/player"
+        "custom/player",
+	"custom/mode_switch"
     ],
     "modules-right": [
 	    "bluetooth",
