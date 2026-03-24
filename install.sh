@@ -31,5 +31,7 @@ stow hyprland
 sudo systemctl enable sddm
 sudo systemctl enable bluetooth
 sudo systemctl enable pipewire pipewire-pulse wireplumber
+sudo mkdir -p /etc/sddm.conf.d
+echo -e "[Theme]\nCurrent=corners" | sudo tee /etc/sddm.conf.d/theme.conf
 
 echo "✓ System ready."

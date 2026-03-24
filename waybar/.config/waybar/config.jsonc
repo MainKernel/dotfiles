@@ -16,17 +16,19 @@
 	    "~/.config/waybar/modules/cpusage.jsonc",
 	    "~/.config/waybar/modules/network.jsonc",
 	    "~/.config/waybar/modules/bluetooth.jsonc",
-	    "~/.config/waybar/modules/mode_switch.jsonc"
+	    "~/.config/waybar/modules/mode_switch.jsonc",
+	    "~/.config/waybar/modules/services.jsonc"
     ],
 
 
     "modules-left": [
-       "hyprland/workspaces" 
+	"hyprland/workspaces#mycustom" 
     ],
 
     "modules-center": [
         "custom/player",
-	"custom/mode_switch"
+	"custom/mode_switch",
+	"custom/services"
     ],
     "modules-right": [
 	    "bluetooth",

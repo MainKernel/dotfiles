@@ -1,5 +1,5 @@
 {
-	"hyprland/workspaces" : {
+	"hyprland/workspaces#mycustom" : {
 		"disable-scroll" : true,
 		"all-outputs": true,
 		"warp-on-scroll": false,

@@ -1,0 +1,7 @@
+{
+	"custom/services": {
+		"format": "",
+		"tooltip": false,
+		"on-click": "~/.config/hyperscripts/waybar/modules/services.sh"
+	}
+}

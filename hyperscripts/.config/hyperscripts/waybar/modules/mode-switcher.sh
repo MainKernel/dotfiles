@@ -34,7 +34,9 @@ fi
 
 case "$mode" in
 	"default")
-		echo "default"
+		hyprctl keyword animations:enabled 1
+		hyprctl keyword decoration:blur:enabled 1
+		hyprctl keyword decoration:drop_shadow 1
 		;;
 	"software-dev")
 		echo "software-dev"
@@ -43,10 +45,14 @@ case "$mode" in
 		echo "engineering"
 		;;
 	"gaming")
-		echo "gaming"
+		hyprctl keyword animations:enabled 0 
+		hyprctl keyword decoration:blur:enabled 0
+		hyprctl keyword decoration:drop_shadow 0
 		;;
 	"relaxing")
-		echo "relaxing"
+		hyprctl keyword animations:enabled 1
+		hyprctl keyword decoration:blur:enabled 1
+		hyprctl keyword decoration:drop_shadow 1
 		;;
 	"stady")
 		echo "stady"
