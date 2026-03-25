@@ -6,6 +6,7 @@
 @import "modules/styles/mode_switch.css";
 @import "modules/styles/services.css";
 @import "modules/styles/workspaces.css";
+@import "modules/styles/sound.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
@@ -329,4 +330,10 @@ label:focus {
 
 #privacy-item.audio-out {
     background-color: #0069d4;
+}
+window#waybar .modules-left > widget > *,
+window#waybar .modules-center > widget > *,
+window#waybar .modules-right > widget > * {
+    margin-left: 0px;
+    margin-right: 0px;
 }

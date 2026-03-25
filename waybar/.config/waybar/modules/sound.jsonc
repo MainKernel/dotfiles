@@ -1,0 +1,10 @@
+{
+	"custom/sound": {
+		"exec": "~/.config/hyperscripts/waybar/modules/sound.sh",
+		"interval": 1,
+		"return-type": "json",
+		"format": "{}",
+		"on-click": "pavucontrol"
+
+	}
+}

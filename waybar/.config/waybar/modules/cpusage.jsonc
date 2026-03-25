@@ -3,6 +3,7 @@
 		"exec": "~/.config/hyperscripts/waybar/modules/cpu-usage.sh",
 		"return-type": "json",
 		"interval": 5,
-		"format": "{}"
+		"format": "{}",
+		"on-click": "kitty htop"
 	}
 }
