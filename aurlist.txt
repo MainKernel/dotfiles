@@ -1,3 +1,5 @@
 anyrun-git
+sddm-theme-corners-git
+swww
 yay
 yay-debug
