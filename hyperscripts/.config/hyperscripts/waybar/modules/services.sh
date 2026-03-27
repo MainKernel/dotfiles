@@ -24,19 +24,33 @@ chosen=$(echo -e "$options" | rofi -dmenu -i -p "Services" -theme ~/.config/rofi
 
 toggle_switch(){
 	if systemctl is-active --quiet "$1"; then
-		systemctl stop "$1"
-		notify-send -t 2000 -u low "Services" "$1 stoped"
+		if [[ "$1" == "libvirtd" ]]; then
+			systemctl stop libvirtd.service libvirtd.socket libvirtd-ro.socket libvirtd-admin.socket
+			pkexe virsh net-stop default
+		elif [[ "$1" == "docker" ]]; then
+			systemctl stop docker.service docker.socket
+		else
+			systemctl stop "$1"
+		fi
+
+			notify-send -t 2000 -u low "Services" "$1 stoped"
 	else
+		if [[ "$1" == "libvirtd" ]]; then
+			virsh net-start default
+		fi
 		systemctl start "$1"
 		notify-send -t 2000 -u low "Services" "$1 running"
 	fi
 }
 
+
+
 case "$chosen" in
 	*"Docker"*)
 		toggle_switch docker ;;
 	*"Libvirt"*)
-		toggle_switch libvirtd ;;
+		toggle_switch libvirtd 
+		;;
 	*"Bluetooth"*)
 		toggle_switch bluetooth ;;
 esac

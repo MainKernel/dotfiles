@@ -18,12 +18,14 @@
 	    "~/.config/waybar/modules/bluetooth.jsonc",
 	    "~/.config/waybar/modules/mode_switch.jsonc",
 	    "~/.config/waybar/modules/services.jsonc",
-	    "~/.config/waybar/modules/sound.jsonc"
+	    "~/.config/waybar/modules/sound.jsonc",
+	    "~/.config/waybar/modules/brightnes.jsonc"
     ],
 
 
     "modules-left": [
-	"hyprland/workspaces#mycustom" 
+	"hyprland/workspaces#mycustom",
+	"custom/brightness"
     ],
 
     "modules-center": [

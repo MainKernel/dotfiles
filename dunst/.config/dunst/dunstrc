@@ -1,0 +1,53 @@
+[global]
+    # Розташування: зверху праворуч, з відступами 20px від країв
+    origin = top-right
+    offset = 20x20
+    
+    # Розміри: ширина 300px, висота динамічна
+    width = 300
+    height = 300
+    
+    # Вигляд: відступи тексту та іконок
+    padding = 15
+    horizontal_padding = 15
+    icon_position = left
+    max_icon_size = 48
+    
+    # Шрифт
+    font = JetBrainsMono Nerd Font 10
+    
+    # Рамка та кути (як у вашому Rofi)
+    frame_width = 2
+    frame_color = "#9D50FF"
+    corner_radius = 12
+    
+    separator_color = frame
+    separator_height = 2
+    
+    # Формат тексту: <b>Заголовок</b>\nТекст
+    format = "<b>%s</b>\n%b"
+    
+    markup = full
+    word_wrap = yes
+
+
+[urgency_low]
+    # Наприклад, перемикання режимів або зміни гучності
+    background = "#101018"
+    foreground = "#cdd6f4"
+    frame_color = "#9D50FF"
+    timeout = 3
+
+[urgency_normal]
+    # Звичайні сповіщення (повідомлення, пошта)
+    background = "#101018"
+    foreground = "#cdd6f4"
+    frame_color = "#9D50FF"
+    timeout = 5
+
+[urgency_critical]
+    # Помилки системи, низький заряд батареї
+    background = "#101018"
+    foreground = "#f38ba8"
+    frame_color = "#FFA500"
+    timeout = 0 # 0 означає, що воно не зникне, поки ви по ньому не клікнете

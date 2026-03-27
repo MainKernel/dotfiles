@@ -1,0 +1,10 @@
+{
+	"custom/brightness":{
+		"exec": "~/.config/hyperscripts/waybar/modules/brightness.sh",
+		"interval": 2,
+		"return-type": "json",
+		"text": "{}",
+		"tooltip": false
+
+	}
+}

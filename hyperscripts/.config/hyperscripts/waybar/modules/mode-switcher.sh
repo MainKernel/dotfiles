@@ -43,11 +43,14 @@ case "$mode" in
 		hyprctl keyword general:gaps_in 5
 		hyprctl keyword general:gaps_out 10
 		hyprctl keyword decoration:rounding 10
+		hyprctl keyword general:col.active_border = "rgba(33ccffee) rgba(00ff99ee) 45deg"
+
 		;;
 	"software-dev")
 		hyprctl keyword animations:enabled 1
 		hyprctl keyword decoration:blur:enabled 1
 		hyprctl keyword misc:vfr 1
+		hyprctl keyword general:col.active_border 0 
 
 		hyprctl keyword general:gaps_in 0
     		hyprctl keyword general:gaps_out 0
@@ -58,7 +61,8 @@ case "$mode" in
 		hyprctl keyword decoration:blur:enabled 0 
 		hyprctl keyword decoration:shadow:enabled 1
 		hyprctl keyword misc:vfr 1
-	
+		hyprctl keyword general:col.active_border 0
+
 		hyprctl keyword general:gaps_in 0
 		hyprctl keyword general:gaps_out 0 
 		hyprctl keyword decoration:rounding 0
@@ -68,17 +72,23 @@ case "$mode" in
 		hyprctl keyword animations:enabled 0
 		hyprctl keyword decoration:blur:enabled 0
 		hyprctl keyword decoration:shadow:enabled 0
-		hyprctl keyword misc:vfr 0		
+		hyprctl keyword misc:vfr 0	
+
+		hyprctl keyword general:col.active_border 0
 		;;
 	"relaxing")
 		hyprctl keyword animations:enabled 1
 		hyprctl keyword decoration:blur:enabled 1
 		hyprctl keyword decoration:drop_shadow 1
+		hyprctl keyword general:col.active_border = "rgba(33ccffee) rgba(00ff99ee) 45deg"
+
+
 		;;
 	"study")
 		hyprctl keyword animations:enabled 1
 		hyprctl keyword decoration:blur:enabled 1
-		
+
+		hyprctl keyword general:col.active_border 0
 		hyprctl keyword decoration:dim_inactive 1
 		hyprctl keyword decoration:dim_strength 0.3
 		;;

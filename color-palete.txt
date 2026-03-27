@@ -1,0 +1,54 @@
+### Projec color palete
+
+
+### Background(Dark)
+Base layer
+
+	Hex: #101018
+	RGB: rgb(16, 16, 24)
+	RGBA: rgba(16, 16, 24, 1.0)
+
+
+
+### Accent Neon Cyan
+For icons, progress bar, glowing elements
+
+	Hex: #00E0FF
+	RGB: rgb(0, 224, 255)
+	RGBA: rgba(0, 224, 255, 1.0) 
+
+	GLOWING SHADOWS: rgba(0, 224, 255, 0.3)
+
+
+### Warning Orange
+
+	Hex: #FFA500
+	RGB: rgb(255, 165, 0)
+	RGBA: rgba(255, 165, 0, 1.0)
+
+### Accent Purple
+For flow lines, additional elements
+
+	Hex: #9D50FF
+	RGB: rgb(157, 80, 255)
+	RGBA: rgba(157, 80, 255, 1.0)
+
+### Text primary (OFF-WHITE)
+
+	Hex: #E2E8F0
+	RGB: rgb(226, 232, 240)
+	RGBA: rgba(226, 232, 240, 1.0)
+
+### Text secondary (SLATE GRAY)
+
+	Hex: #94A3B8
+	RGB: rgb(148, 163, 184)
+	RGBA: rgba(148, 163, 184, 1.0)
+
+
+### Surfaces and panels
+
+	Hex: #1E293B
+	RGB: rgb(30, 41, 59)
+	RGBA: rgba(30, 41, 59, 1.0)
+

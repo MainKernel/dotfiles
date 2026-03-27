@@ -2,8 +2,10 @@ alsa-firmware
 base
 base-devel
 blueman
+brightnessctl
 btrfs-progs
 clang
+dnsmasq
 dunst
 efibootmgr
 firefox
@@ -11,6 +13,7 @@ freecad
 gimp
 git
 github-cli
+gnome-calculator
 grub
 gst-plugin-pipewire
 htop
@@ -19,10 +22,12 @@ hyprland
 hyprlock
 hyprpolkitagent
 intel-ucode
+iptables-nft
 kitty
 less
 libnotify
 libpulse
+libvirt
 linux
 linux-firmware
 nautilus
@@ -35,6 +40,7 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+qemu-full
 qt5-graphicaleffects
 qt5-quickcontrols2
 qt5-svg
@@ -50,6 +56,7 @@ tree
 ttf-jetbrains-mono-nerd
 ttf-nerd-fonts-symbols
 unzip
+virt-manager
 waybar
 wireplumber
 wl-clipboard

@@ -5,10 +5,10 @@ configuration{
 }
 
 *{
-	bg-col: #313244;
-	bg-alt: #262735;
-	fg-col: #cdd6f4;
-	accent: #89b4fa;
+	bg-col: #101018;
+	bg-alt: #200E0F;
+	fg-col: #E2E8F0;
+	accent: #9D50FF;
 
 	background-color: transparent;
 	text-color: @fg-col;

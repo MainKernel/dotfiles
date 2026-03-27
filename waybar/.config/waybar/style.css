@@ -7,6 +7,7 @@
 @import "modules/styles/services.css";
 @import "modules/styles/workspaces.css";
 @import "modules/styles/sound.css";
+@import "modules/styles/brightness.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
@@ -98,6 +99,9 @@ button:hover {
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
+}
+.workspaces {
+	margin: 0;
 }
 .modules-left {
 	background-color: transparent;
@@ -196,7 +200,7 @@ label:focus {
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    color: rgba(255, 165, 0, 0.5);
 }
 
 #pulseaudio {
