@@ -1,6 +1,6 @@
 anyrun-git
-curseforge
 sddm-theme-corners-git
 swww
 yay
 yay-debug
+youtubemusic

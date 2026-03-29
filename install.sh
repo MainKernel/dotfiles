@@ -27,11 +27,15 @@ stow anyrun
 stow rofi
 stow waybar
 stow hyprland
+stow dunst
 
 sudo systemctl enable sddm
-sudo systemctl enable bluetooth
 sudo systemctl enable pipewire pipewire-pulse wireplumber
 sudo mkdir -p /etc/sddm.conf.d
+
 echo -e "[Theme]\nCurrent=corners" | sudo tee /etc/sddm.conf.d/theme.conf
+
+sudo ln -s /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu
+kbuildsycoca6
 
 echo "✓ System ready."
