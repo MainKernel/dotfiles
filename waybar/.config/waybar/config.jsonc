@@ -19,13 +19,15 @@
 	    "~/.config/waybar/modules/mode_switch.jsonc",
 	    "~/.config/waybar/modules/services.jsonc",
 	    "~/.config/waybar/modules/sound.jsonc",
-	    "~/.config/waybar/modules/brightnes.jsonc"
+	    "~/.config/waybar/modules/brightnes.jsonc",
+	    "~/.config/waybar/modules/kb_layaut.jsonc"
     ],
 
 
     "modules-left": [
 	"hyprland/workspaces#mycustom",
-	"custom/brightness"
+	"custom/brightness",
+	"custom/kblayaut"
     ],
 
     "modules-center": [

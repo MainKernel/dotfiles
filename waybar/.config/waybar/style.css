@@ -8,6 +8,7 @@
 @import "modules/styles/workspaces.css";
 @import "modules/styles/sound.css";
 @import "modules/styles/brightness.css";
+@import "modules/styles/kblayaut.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */

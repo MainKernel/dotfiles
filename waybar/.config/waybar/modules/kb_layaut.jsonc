@@ -1,0 +1,9 @@
+{
+	"custom/kblayaut":{
+		"exec": "~/.config/hyperscripts/waybar/modules/kb_layaut.sh",
+		"interval": 1,
+		"return-type": "json",
+		"text": {},
+		"tooltip": false
+	}
+}
