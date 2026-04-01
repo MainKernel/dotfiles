@@ -37,5 +37,11 @@ echo -e "[Theme]\nCurrent=corners" | sudo tee /etc/sddm.conf.d/theme.conf
 
 sudo ln -s /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu
 kbuildsycoca6
+xhost +local:root
+
+hyprpm update
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm enable hyprexpo
+hyprpm reload
 
 echo "✓ System ready."

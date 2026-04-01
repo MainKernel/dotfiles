@@ -6,6 +6,7 @@ blueman
 brightnessctl
 btrfs-progs
 clang
+cmake
 dnsmasq
 dolphin
 drawio-desktop
@@ -13,11 +14,13 @@ dunst
 efibootmgr
 firefox
 freecad
+gamescope
 gimp
 git
 github-cli
 glfw
 gnome-calculator
+gparted
 grub
 gst-plugin-pipewire
 gwenview
@@ -59,6 +62,7 @@ snapper
 sof-firmware
 stow
 sudo
+telegram-desktop
 tree
 ttf-jetbrains-mono-nerd
 ttf-nerd-fonts-symbols
@@ -71,4 +75,5 @@ wl-clipboard
 wpa_supplicant
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
+xorg-xhost
 zram-generator
